@@ -2,4 +2,4 @@
 
 cd $(dirname $0)/..
 
-docker image build -t ryutah/sample -f ./container/develop/Dockerfile .
+gcloud --quiet builds submit --config ./container/develop/cloudbuild.yaml .

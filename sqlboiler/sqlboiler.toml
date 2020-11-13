@@ -1,0 +1,11 @@
+pkgname = "model"
+output = "model"
+no-tests = true
+
+[mysql]
+dbname = "sample"
+host = "host.docker.internal"
+port = 3306
+user = "user"
+pass = "pass"
+sslmode = "false"
